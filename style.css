@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: purple;
+    background: url(bg.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.or p{
+    text-align: center;
+    padding: 9px 9px 9px 9px;
+    color: white;
+}
+.container{
+    background-color: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    width: 410px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(184, 184, 184);
+
+}
+.container .input{
+    position: relative;
+    padding: 7px 5px;
+    margin: 15px -5px;
+}
+.input input{
+    width:100%;
+    color: white;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+    outline: none;
+    padding: 5px 0px 5px 22px;
+    background: transparent;
+}
+.input i{
+    color: white;
+}
+.button button{
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: white;
+}
+.button button:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    text-decoration: wavy;
+}
+
+.container .input i{
+    position: absolute;
+    right: 24px;
+    top: 13px;
+}
